@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="OP.css">
+</head>
+
+<body>
+    <div class="container-fluid" id="aa">
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col-6">
+                        <h3 id="l">Online Payment</h3>
+                    </div>
+                    <div class="col-6">
+                        <span id="b">
+                            <button id="lr" data-toggle="modal" data-target="#mod">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                </svg>
+                                Login/Register
+                            </button>
+                        </span>
+                    </div>
+                </div>
+                <div id="ahh">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block img-fluid w-100" src="manphone.jpg" id="mp">
+                                <div class="carousel-caption">
+                                    <h3>Pay On Your Phone</h3>
+                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid w-100" src="mancomputer.jpg">
+                                <div class="carousel-caption">
+                                    <h3>Or Pay On Your Computer</h3>
+                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid w-100" src="fm.jpg">
+                                <div class="carousel-caption">
+                                    <h3>To Keep Life Going Simply</h3>
+                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb" id="bread">
+                        <li class="breadcrumb-item"><a href="Home.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">About</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="mod">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Online Payment</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <button id="mlog">Login</button>
+                    <button id="mreg">Register</button>
+
+                    <hr>
+                    <br>
+                    <div id="lo">
+                        <b>Email:</b>
+                        <input type="email" name="" id="lemail">
+                        <br>
+                        <b>Password:</b>
+                        <input type="password" name="" id="lpass">
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-info" id="msub">Submit</button>
+                    </div>
+                    <div id="re">
+                        <b>Name:</b>
+                        <select name="marital" id="marital">
+                            <option value="Mr.">Mr.</option>
+                            <option value="Mrs.">Mrs.</option>
+                            <option value="Ms.">Ms.</option>
+                        </select>
+                        <input type="text" id="rname" placeholder="Name*">
+                        <br>
+                        <br>
+                        <b>Email:</b>
+                        <input type="email" name="" id="remail" placeholder="Email*">
+                        <br>
+                        <br>
+                        <b>Mobile #:</b>
+                        <input type="number" placeholder="Mobile*" id="rphone">
+                        <br>
+                        <br>
+                        <b>Password:</b>
+                        <input type="password" name="" id="rpass" placeholder="Password*">
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-info" id="rsc">Save & Continue</button>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3 id="b">About Us</h3>
+                <br>
+                <h5>What Is Online Pyament?</h5>
+                <p>
+                    Ideo sumi sae ima ente rari novi. Contrariae aliquoties affirmabam parentibus ad deprehendi mo. Ac
+                    nunc illi ii fide. Judicio finitae invenio eam claudam fuerunt sed vel majoris. Enitar fingam scioli
+                    ut latera im habens ac me. Apud viam ex quem visu ne. Debent fronte moveri videre ab statim im is
+                    posset. Vim quidem cupere ausint nolens tur cap omnino.
+                    <br>
+                    <br>
+                    Rem summum ope eae notatu sicuti calida causas. Machinam assidere circulum in facultas ab. Haberem
+                    volebam tur verarum mallent etc una seu referam ignotae. Heri sic rum ante sine quas fas modi. Nos
+                    creasse pendere crescit angelos etc. Is ii veat se suae admi nisi data meas an. Ei probent enatare
+                    et naturam. Igni bere meum at vi meae ob ente foco. Progressum expectanti deo advertebam confirmari
+                    objectivam age tractandae vix dem. Assentiar im singulari examinare voluntate inhaereat de si
+                    colligere me.
+                </p>
+                <h5>Why Use Online Payment</h5>
+                <p>
+                    1.Ideo sumi sae ima ente rari novi. Contrariae aliquoties affirmabam parentibus ad deprehendi mo.
+                    <br>
+                    <br>
+                    2.Ac nunc illi ii fide. Judicio finitae invenio eam claudam fuerunt sed vel majoris.
+                    <br>
+                    <br>
+                    3.Apud viam ex quem visu ne. Debent fronte moveri videre ab statim im is posset. Vim quidem cupere
+                    ausint nolens tur cap omnino.
+                </p>
+                <h5>We Promise:</h5>
+                <p>
+                    1.Rem summum ope eae notatu sicuti calida causas. Machinam assidere circulum in facultas ab. Haberem
+                    volebam tur verarum mallent etc una seu referam ignotae.
+                    <br>
+                    <br>
+                    2.Heri sic rum ante sine quas fas modi. Nos creasse pendere crescit angelos etc. Is ii veat se suae
+                    admi nisi data meas an.
+                    <br>
+                    <br>
+                    3.Ei probent enatare et naturam. Igni bere meum at vi meae ob ente foco. Progressum expectanti deo
+                    advertebam confirmari objectivam age tractandae vix dem.
+                    <br>
+                    <br>
+                    4.Tamquam ita veritas res equidem. Ea in ad expertus paulatim poterunt. Imo volo aspi novi tur.
+                    <br>
+                    <br>
+                    5.Ausi ente me idem utor adeo ob ille. Hominem inferri hos effugio una vel istarum. Gnum ii iste
+                    amen ab visu atra. Deo sic olim sese amen.
+                    <br>
+                    <br>
+                    6.Cau exponam sentiam lus fatigor emanant. Ex attingebam ne mo distinctae spectentur theologiae
+                    potentiali. Apollonio ita veritatis plerosque existimem apparebat sua ubi.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <br>
+                <img src="customer.jpg" class="img-fluid" alt="" id="cs">
+            </div>
+            <div class="col-5" id="aahh">
+                <span><b>Online Payment</b></span>
+                <hr>
+                <h4 id="b">24/7 Customer Service Support</h4>
+                <p>Ideo sumi sae ima ente rari novi. Contrariae aliquoties affirmabam parentibus ad deprehendi mo. Ac
+                    nunc illi
+                    ii fide.</p>
+                <br>
+                <button type="button" class="btn btn-info" id="sb">Support</button>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="onef">
+        <div class="row">
+            <div class="col-6">
+                <br>
+                <br>
+                <h5>Join Us On Social Media</h5>
+                <br>
+                <img src="soc.PNG" alt="">
+            </div>
+            <div class="col-6">
+                <h5>Subscribe To Our Newsletter</h5>
+                <br>
+                <input type="email" id="em" placeholder="Enter Your Email"><button
+                    class="btn bnt-info">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="twof">
+        <div class="row">
+            <div class="col-4">
+                <br>
+                <p>Company</p>
+                <a href="Home.html" class="sw">Home</a>
+                <br>
+                <a href="About.html" class="sw">About</a>
+                <br>
+                <a href="Support.html" class="sw">Support</a>
+                <br>
+                <a href="FAQ.html" class="sw">FAQ</a>
+                <br>
+                <a href="Contact.html" class="sw">Contact</a>
+            </div>
+            <div class="col-4">
+                <br>
+                <p>Services</p>
+                <span class="sw">Water</span>
+                <br>
+                <span class="sw">Electricity</span>
+                <br>
+                <span class="sw">Phone</span>
+                <br>
+                <span class="sw">Rent/Morygage</span>
+                <br>
+                <span class="sw">Insurance</span>
+                <br>
+                <span class="sw">Car</span>
+            </div>
+            <div class="col-4">
+                <br>
+                <p>Payment Options</p>
+                <span class="sw">Credit Card</span>
+                <br>
+                <span class="sw">Debit Card</span>
+                <br>
+                <span class="sw">Visa Card</span>
+                <br>
+                <span class="sw">Direct Bank Debits</span>
+                <br>
+                <span class="sw">Cash Cards</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+    <script src="OP.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+
+
+#l{
+    color: yellow;
+    padding-left: 175px;
+}
+
+#ahh{
+    margin-left: 600px;
+    width: 700px;
+
+}
+
+#mp{
+    height: 468px;
+}
+
+#aa{
+    background-color: rgb(43, 41, 41);
+}
+
+#b{
+    color: darkcyan;
+}
+
+#aahh{
+    text-align: center;
+    margin-left: 125px;
+}
+
+#onef{
+    background-color: rgb(176, 238, 238);
+    text-align: center;
+    padding: 15px;
+}
+
+#twof{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.sw{
+    font-size: smaller;
+    color: white;
+}
+
+#type{
+    width: 125px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+#name, #phone, #email{
+    width: 500px;
+}
+
+#grey{
+    background-color: gainsboro;
+    padding: 10px;
+    color: dimgray;
+    margin-bottom: 400px;
+    margin-top: 50px;
+}
+
+#water, #pho, #elec, #rm, #insur, #car{
+    width: 200px;
+    border: 1px solid black;
+}
+
+#bread{
+    padding: 15px;
+    background-color: aqua;
+    color: white;
+}
+
+#lr{
+    background-color: rgb(43, 41, 41);
+    color: yellow;
+    margin-left: 350px;
+}
+
+#mod{
+    text-align: center;
+}
+
+#re{
+    display: none;
+}
+
+#lemail, #lpass, #remail, #rphone, #rpass{
+    margin-left: 25px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+#rname{
+    width: 200px;
+    border-radius: 5px;
+}
+
+#marital{
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+#welcome{
+    color: yellow;
+    margin-left: 350px;
+}
+
+#usersname{
+    color: yellow;
+}
+
+#menu{
+    color: black;
+    background-color: white;
+}
+
+#phonediv, #elecdiv, #waterdiv, #indiv, #cardiv, #rmdiv{
+    display: none;
+}
+
+.wide{
+    width: 350px;
+}
